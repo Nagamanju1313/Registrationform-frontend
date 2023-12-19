@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.menu {
+  padding:0;
+  margin:0;
+  display: flex;
+}
+.menu li{
+  margin:10px;
+  list-style: none;
+  
+}
+.menu li a {
+  color:#fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding:10px 20px;
+
+  &:hover{
+    background-color: #fff;
+    color:#61dafb;
+  }
+}
